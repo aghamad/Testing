@@ -11,7 +11,8 @@ namespace ComicBookGallery.Controllers
         // Controller classes need to be public
         // Controllers are coordinators 
         // Presenting Content is the job for a view 
-        
+        // .../ComicBook/Detail Path to this Action Method
+        // This Detail Method will then call its view which is/should be called, by convention, Detail.cshtml 
         // Action Method
         public ActionResult Detail()
         {
